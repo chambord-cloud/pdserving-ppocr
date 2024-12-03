@@ -1,0 +1,7 @@
+services:
+  ppocr:
+    build: .
+    container_name: ppocr
+    restart: always
+    ports:
+      - "5000:9998"
